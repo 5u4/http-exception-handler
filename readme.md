@@ -1,5 +1,7 @@
 # Http Exception Handler
 
+**This repository is been deprecated, the instruction is no longer usable. The new repo is at [http-exceptions](https://github.com/senhungwong/http-exceptions)**
+
 ## Description
 
 Handles express.js app http exceptions.
