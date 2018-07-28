@@ -50,7 +50,7 @@ function createErrorDescriptor(err: any): IExceptionDescriptor {
         return {
             message: err.message ? err.message : err.toString(),
             stackTrace: err.stack,
-            statusCode: err.getStatusCode()
+            statusCode: 500
         }
     }
 }
