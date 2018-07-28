@@ -7,13 +7,13 @@ Handles express.js app http exceptions.
 ## Install
 
 ```bash
-$ npm install httpexceptions
+$ npm install express-http-exceptions --save
 ```
 
 ## Example
 
 ```javascript
-const HttpExceptions = require('httpexceptions');
+const HttpExceptions = require('express-http-exceptions');
 const express        = require('express');
 
 /* create express app */
@@ -39,7 +39,7 @@ app.use((err, req, res, next) => {
 OR
 
 ```javascript
-const HttpExceptions = require('httpexceptions');
+const HttpExceptions = require('express-http-exceptions');
 const express        = require('express');
 
 /* create express router  */

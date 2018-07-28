@@ -1,5 +1,5 @@
 {
-  "name": "httpexceptions",
+  "name": "express-http-exceptions",
   "version": "0.1.0",
   "description": "⚠️ Handle http exception gracefully",
   "main": "index.js",
