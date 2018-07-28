@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc",
     "watch": "tsc --watch"
   },
   "repository": {
@@ -22,6 +23,8 @@
   ],
   "homepage": "https://github.com/senhungwong/http-exception-handler#readme",
   "devDependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.3",
     "tslib": "^1.9.3",
     "typescript": "^2.9.2"
   }

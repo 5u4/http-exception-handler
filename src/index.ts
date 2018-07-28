@@ -225,3 +225,8 @@ export { NetworkAuthenticationRequiredHttpException } from './HttpExceptions/5XX
  * the proxy to a client in front of the proxy.
  */
 export { NetworkConnectTimeoutErrorHttpException } from './HttpExceptions/5XX/NetworkConnectTimeoutErrorHttpException';
+
+/**
+ * Express middleware to report errors nicely.
+ */
+export { middleware } from './middleware';
