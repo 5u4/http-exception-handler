@@ -2,9 +2,11 @@
   "name": "express-http-exceptions",
   "version": "0.1.0",
   "description": "⚠️ Handle http exception gracefully",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "watch": "tsc --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,12 @@
   "bugs": {
     "url": "https://github.com/senhungwong/http-exception-handler/issues"
   },
-  "homepage": "https://github.com/senhungwong/http-exception-handler#readme"
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/senhungwong/http-exception-handler#readme",
+  "devDependencies": {
+    "tslib": "^1.9.3",
+    "typescript": "^2.9.2"
+  }
 }
